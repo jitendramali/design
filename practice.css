@@ -1,0 +1,70 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family:vardana;
+	background-image:url("webdevelopment.jpg");
+	background-color:;
+	padding:50px;
+	text-transform:capitalize;
+	}
+	ul#main1 ,ul.sub1, ul.sub2{
+		list-style-type:none;
+	}
+	ul#main1 li{
+		
+		width:125px;
+		text-align:center;
+		position:relative;
+		float:left;
+		margin:4px;
+	}
+	ul#main , a{
+		text-decoration:none;
+		display:block;
+		width:125px;
+		height:25px;
+		line-height:25px;
+		background-color:green;
+		color:red;
+	     	
+	border-radius:25px;}
+	ul#main1 .sub2 a{
+		width:200px;
+	}
+	
+	ul#main1, .sub1 li{
+	}
+	ul#main1, .sub1 a{
+		margin:3px;
+	
+	}
+	ul#main1, .sub2 a{
+		margin-left:10px;
+		margin-top:1px;
+		
+	}
+	ul#main1 li:hover > a{
+		background-color:white;
+	}
+	ul#main1 li:hover a:hover{
+	background-color:pink;}
+	ul#main1 ul.sub1{
+		display:none;
+		position:absolute;
+		top:26px;
+		left:0px;
+	}
+	
+	ul#main1 ul.sub2{
+		display:none;
+		position:absolute;
+		top:0;
+		left:126px;
+	}
+	ul#main1 li:hover .sub1{
+		display:block;
+	}
+	ul#main1 .sub1 li:hover .sub2{
+		display:block;]
